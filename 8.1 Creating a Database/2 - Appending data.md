@@ -5,6 +5,7 @@ We have now created `patients.csv` which is a flat file database with attributes
 
 ## Task 2 👨🏽‍💻
 Next thing to do is add the patient data shown below:
+
 ![image](image_14.png)
 
 The code is very similar to the previous example, but this time you must create 3 lists _(one for each patient record)_, and append them to the ``patients.csv`` file.
@@ -58,6 +59,7 @@ The double square brackets ``[[ ]]`` at the start and end of the output indicate
 - This is often referred to as a 2D-list.
   - In Python, a 2D-list is a 1D-list where each item in the list is a 1D-list itself..._"a list of lists."_
 - The diagram below shows the ``records`` list.
+
 ![image](image_15.png)
 
   - Each item in the records list, contains a 1D-list that corresponds to a single patient record.
