@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Data input</title>
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+      <h2>Input data here</h2>
+
+      <form>
+        <input id="firstName" type="text" maxlength="100" placeholder="Type your first name here..." >
+        <br>
+                <input id="lastName" type="text" maxlength="100" placeholder="Type your last name here..." >
+        <br>
+                <input id="age" type="text" maxlength="100" placeholder="Type your age here..." >
+        <button type="submit" id="submit-data">Submit data</button>
+      </form>
+    <br>
+    <br>
+
+      <table border="1">
+      <caption><strong>Information will be displayed here...</strong></caption>
+      <tr>              <!-- <tr> inserts a table row -->
+        <th>First Name</th> <!-- insert a heading cell -->
+        <th>Last Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td><textarea rows="10" cols="10" id="info1"></textarea> </td> 
+        <td><textarea rows="10" cols="10" id="info2"></textarea></td>
+        <td><textarea rows="10" cols="10" id="info3"></textarea></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!-- Include firebase.js here -->
+<script src="https://www.gstatic.com/firebasejs/8.4.0/firebase.js"></script>
+
+<!-- Include script.js here -->
+<script src="script.js"></script>
