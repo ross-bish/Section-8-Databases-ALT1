@@ -24,6 +24,7 @@ Firebase provides a cloud-hosted NoSQL database that allows developers to store 
 3. Copy and Paste the Firebase Configuration Key to the top of JS code as we did in the previous lesson.
 
   - For example
+
 ![image](image_5.png)
 
 ### 💡Note:
