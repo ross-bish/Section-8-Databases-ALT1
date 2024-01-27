@@ -43,6 +43,7 @@ Learning JavaScript is like gaining superpowers for the web. With it, you can bu
 3. Copy and Paste the Firebase Configuration Key to the top of JS code.
 
   - For example
+
 ![image](image_4.png)
 
 ### 💡Note:
